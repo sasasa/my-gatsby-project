@@ -117,7 +117,10 @@ module.exports = {
           src: 'https://stoic-shannon-8ba080.netlify.app/sw.js',
           'data-iframe-src': 'https://stoic-shannon-8ba080.netlify.app/amp-install-serviceworker.html',
           layout: 'nodisplay'
-        }
+        },
+        optimize: true,
+        htmlPlugins: [],
+        cssPlugins: []
       }
     },
     `gatsby-plugin-offline`,

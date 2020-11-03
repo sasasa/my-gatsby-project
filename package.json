@@ -58,6 +58,6 @@
     "test": "npm run amp"
   },
   "devDependencies": {
-    "amphtml-validator": "^1.0.23"
+    "amphtml-validator": "^1.0.33"
   }
 }
