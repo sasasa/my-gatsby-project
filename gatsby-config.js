@@ -3,7 +3,7 @@ module.exports = {
     title: `sasasaのブログ`,
     author: `sasasa mas`,
     description: `趣味のブログ`,
-    siteUrl: `https://gatsby-starter-blog-amp-to-pwa.netlify.com/`,
+    siteUrl: `https://stoic-shannon-8ba080.netlify.app/`,
     social: {
       twitter: `saesae`,
     },
@@ -114,8 +114,8 @@ module.exports = {
         gaConfigPath: 'gaConfig.json',
         dist: 'public/amp',
         serviceWorker: {
-          src: 'https://gatsby-starter-blog-amp-to-pwa.netlify.com/sw.js',
-          'data-iframe-src': 'https://gatsby-starter-blog-amp-to-pwa.netlify.com/amp-install-serviceworker.html',
+          src: 'https://stoic-shannon-8ba080.netlify.app/sw.js',
+          'data-iframe-src': 'https://stoic-shannon-8ba080.netlify.app/amp-install-serviceworker.html',
           layout: 'nodisplay'
         }
       }
